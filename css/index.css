@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+    gap: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+p a {
+    display: inline;
+}
+
+
+img , svg {
+    display : block;
+    width:100%;
+    min-height:inherit;
+    }
+svg{
+        fill: currentColor;
+    }
+
+.Header{
+    width: 100%;
+    min-height: 100px;
+    background-color: rgb(101, 72, 161);
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 3;
+}
+
+.Header-left{
+    width: 20%;
+   padding-left: 1.875rem;
+    
+
+}
+.Header-img{
+    color: wheat;
+}
+
+.Header-Logo{
+    display: flex;
+    flex-flow: row;
+    justify-content: row nowrap;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    
+    
+}
+
+.Nav{
+    width: 30%;
+    
+    margin: auto;
+    
+    
+}
+
+.Nav-ul{
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.Nav-link{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9em;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+.Area{
+    width: 25%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+
+}
+.Area-li{
+     width: 100%;
+     text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9em;
+    font-family: 'Times New Roman', Times, serif;
+
+
+
+   
+}
+.Area-a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.Hero{
+    background-color: black;
+    padding: 100px;
+    width: 100%;
+    min-height: 700px;
+    
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    
+    
+
+
+}
+.Hero-h2{
+    font-size: 3.75rem;
+    z-index: 2;
+    color: white;
+}
+.Hero-botones{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap ;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    z-index: 2;
+    
+
+}
+.Hero-btn{
+    width: 25%;
+    min-height: 50px;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border-radius: 20px;
+  color: black;
+  border: 2px solid inherit;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+font-weight: 600;
+  
+  
+}
+.Hero-video{
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    
+    object-fit: cover;
+
+    
+}
+.Cartas{
+    
+    width: 100%;
+    min-height: 37.5rem;
+   
+
+    display: flex;
+    flex-flow: row  nowrap;
+    justify-content: center;
+    align-items: end;
+    gap: 20px;
+}
+.Cartas-card{
+    width: 40%;
+
+    gap: 20px;
+    position: relative;
+    top: -10px;
+}
+
+.Cartel {
+    width: 90%;
+    min-height: 100px;
+    
+    margin: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+}
+.Cartel-span{
+    display: none;
+}
+
+.Poster{
+    width: 100%;
+    min-height: 700px;
+    
+
+ 
+}
+.Poster-titulo{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Poster-h2{
+    margin: 3.125rem 3.125rem;
+    font-size: 75px;
+}
+.Poster-div{
+
+    width: 100%;
+    min-height:43.75rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+
+}
+.Poster-article{
+    width:calc(50% - 10px);
+    min-height: 25rem;
+    
+    
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+   ;
+}
+.Poster-img{
+    width:100%;
+    min-height: 300px;
+    
+
+
+
+}
+.Poster-p{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.4em;
+    
+    
+
+    
+
+}
+
+.VerMas{
+    
+    width: 100%;
+    min-height: 6.25rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.875rem;
+    margin-bottom: 5rem;
+}
+.VerMas-buttom{
+    border: solid red 2px;
+    padding: 30px 50px;
+}
+.Links{
+    background-color: rgb(195, 194, 194);
+    width: 100%;
+    min-height: 12.5rem;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5em 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9em;
+}
+.Links-li{
+   margin: 0.5em 1em;
+
+}
+.Links-a{
+    font-size: 1em;
+    font-weight: inherit;
+    font-style: inherit;
+    text-decoration: none;
+    color: black;
+}
+.Footer{
+    width: 100%;
+    min-height: 25rem;
+    background-color: black;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: start;
+    color: gray;
+    
+}
+.Footer-div{
+    width: 100%;
+    min-height: 6.25rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+    padding-left: 15%;
+
+
+}
+.Footer-ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    
+
+}
+.footer-li{
+    width: 10%;
+    min-height: 10px;
+    
+}
+.Footer-a{
+    color: white;
+}
+
+.Rojo-degradado{
+    background-image: linear-gradient(144deg,#e8d20f, #a46028 50%,#e01818);
+}
+
+
+@media (max-width:900px){
+    .Nav-ul{
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Cartas{
+        width: 100%;
+
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .Poster-div{
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Header{
+        width: 100%;
+    }
+    .hero-video{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Area{
+        display: none;
+    }
+    .Poster-img{
+        object-fit: cover;
+    }
+    .Hero-video{
+        display: none;
+    }
+    .Hero{
+        background-image: url(../imagenes/mujer-multitud-tomando-foto-escenario-festival-musica_342744-560.jpg);
+        object-fit: cover;
+    }
+    .Main{
+        background-color: rgba(128, 128, 128, 0.47);
+    }
+
+
+}
+
+
+
+
