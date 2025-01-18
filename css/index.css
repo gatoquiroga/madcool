@@ -422,6 +422,35 @@ label,
     background-image: linear-gradient(144deg, #e8d20f, #a46028 50%, #e01818);
 }
 
+.Bubble {
+    position: fixed;    
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    
+    top: 5px;
+    right: 5px;
+    z-index: 5;
+    background-image: linear-gradient(blue,yellow);
+}
+
+.Bubble-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.bubble:hover {
+    transform: scale(1.1);
+}
+
 
 @media (max-width:900px) {
     .Nav-ul {
@@ -481,8 +510,11 @@ label,
         background-repeat: no-repeat;
         background-size: cover;
     }
+    .Bubble{
+        display: none;
+    }
 
-  
+
 
 
 }
@@ -492,7 +524,8 @@ label,
         width: 50%;
         padding: 15px;
     }
-    .Poster-p{
+
+    .Poster-p {
         width: 100%;
         font-size: 1rem;
     }
